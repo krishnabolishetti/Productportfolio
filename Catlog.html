@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Product portfolio">
+    <meta property="og:title" content="Explore our Upskilling programs">
+    <meta property="og:description" content="just product">
+
+    <meta  property="og:image" name="twitter:image:src" itemprop="image" 
+    content="C:\Users\krishna\Desktop\Ed-courses/logo.JPEG">
+    <meta  property="og:type" content="website"/>
+    <meta property="og:image:type" content="image/jpeg">
+    <title>Product portfolio</title>
+    <style>
+        /* General resets and box-sizing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px 0px 20px;
+            /* background-color: #333; */
+            /* color: white; */
+        }
+
+        header img {
+            width: 200px;
+            height: auto;
+            padding : 5px;
+            margin-bottom: 10px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        /* Main Container Styles */
+        .main-container {
+            flex: 1;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            background-image: linear-gradient(rgba(27, 27, 135, 0.979),black);
+        }
+
+        .main-container h2 {
+            font-size: 50px;
+            margin-top: 80px;
+            margin-bottom: 25px;
+        }
+
+        .main-container p {
+            font-size: 24px;
+            line-height: 1.5;
+            padding: 10px 30px 10px 30px;
+        }
+
+        .main-container h3 {
+            font-size: 18px;
+            margin-top: 50px;
+        }
+
+        /* Button Styles */
+        .go-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            font-size: 16px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 60px;
+        }
+
+        .go-button:hover {
+            background-color: #bcb9b9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            header img {
+                width: 180px;
+            }
+
+            .main-container h2 {
+                font-size: 24px;
+            }
+
+            .main-container p {
+                font-size: 16px;
+            }
+
+            .main-container h3 {
+                font-size: 14px;
+            }
+            
+            .go-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="./header_2_png-removebg-preview.png" alt="Logo">
+        <!-- <h1>Responsive Webpage</h1> -->
+    </header>
+
+    <div class="main-container">
+        <h2>Master the Skills That Define Success </h2>
+        <p>Edvedha empowers learners with industry-relevant skills through real-world projects and expert mentorship. Unlock your potential, drive innovation, and take the first step toward a thriving career</p>
+        <h3>"Turn Your Aspirations into Achievements with Future-Ready Learning."</h3>
+
+        <a href="./Product.html" class="go-button">Catalog</a>
+    </div>
+
+</body>
+</html>
